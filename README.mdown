@@ -1,0 +1,21 @@
+Dropbox Sync API
+================
+
+This is the iOS SDK for the [Dropbox Sync API](https://www.dropbox.com/developers/sync).
+
+Getting Started
+---------------
+A tutorial for installing and using Dropbox.framework can be found [here](https://www.dropbox.com/developers/sync/tutorial/ios).
+
+Examples
+--------
+You can find an example app that uses the SDK to edit notes in the Examples
+folder. Open ./Examples/Examples.xcodeproj to view and run.
+
+Documentation
+-------------
+You can install the Xcode docset by running the following command from this directory:
+
+    cp -R com.dropbox.Dropbox.docset ~/Library/Developer/Shared/Documentation/DocSets
+
+Then restart Xcode to complete the installation.

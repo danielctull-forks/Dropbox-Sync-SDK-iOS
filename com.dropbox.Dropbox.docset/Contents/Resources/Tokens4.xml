@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DBError.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DBError</TokenIdentifier>
+			<Abstract type="html">The DBError class is a subclass of NSError that always has domain set to DBErrorDomain.
+  
+  Any method that can potentially fail will return a DBError object via the last parameter.
+  Additionally, errors that happen in the background via syncing can also be retrieved, such
+  as the error property on DBFileStatus. </Abstract>
+			<DeclaredIn>DBError.h</DeclaredIn>
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DBError/code</TokenIdentifier>
+			<Abstract type="html">The code on a DBError object is always listed in the DBErrorCode enum.</Abstract>
+			<DeclaredIn>DBError.h</DeclaredIn>			
+			
+			<Declaration>- (DBErrorCode)code</Declaration>
+			
+			
+			<Anchor>//api/name/code</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

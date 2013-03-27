@@ -1,0 +1,33 @@
+Changes to the Sync API for iOS
+===============================
+
+Changes in 1.0.5
+----------------
+- fix memory leaks
+
+Changes in 1.0.4
+----------------
+- fix unnecessary redownloading of files written locally
+- fix regression from 1.0.3 where files that were closed couldn't be opened again
+- make sure DBSyncStatus always reports uploading when a file is uploading
+- fix a possible hang during DBFilesystem startup
+
+Changes in 1.0.3
+----------------
+- don't call a DBFilesystem path observer if a file's download progress changes
+- better error messages if you try to use a closed file
+- don't warn if -[DBFilesystem fileInfoForPath:error:] is called on a file that doesn't exist
+- don't warn on successful call to -[DBFile update]
+
+Changes in 1.0.2
+----------------
+- actually block when you read an uncached file
+- report the correct download progress
+
+Changes in 1.0.1
+----------------
+- bug fixes
+
+Changes in 1.0
+--------------
+- initial release of Sync API for iOS

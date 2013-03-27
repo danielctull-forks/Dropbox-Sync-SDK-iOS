@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DBAccountInfo.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DBAccountInfo</TokenIdentifier>
+			<Abstract type="html">Information about a user&apos;s account.</Abstract>
+			<DeclaredIn>DBAccountInfo.h</DeclaredIn>
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DBAccountInfo/setDisplayName:</TokenIdentifier>
+			<Abstract type="html">The user&apos;s name.</Abstract>
+			<DeclaredIn>DBAccountInfo.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *displayName</Declaration>
+			
+			
+			<Anchor>//api/name/displayName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DBAccountInfo/displayName</TokenIdentifier>
+			<Abstract type="html">The user&apos;s name.</Abstract>
+			<DeclaredIn>DBAccountInfo.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *displayName</Declaration>
+			
+			
+			<Anchor>//api/name/displayName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DBAccountInfo/setEmail:</TokenIdentifier>
+			<Abstract type="html">The user&apos;s email address, if available.</Abstract>
+			<DeclaredIn>DBAccountInfo.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *email</Declaration>
+			
+			
+			<Anchor>//api/name/email</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DBAccountInfo/email</TokenIdentifier>
+			<Abstract type="html">The user&apos;s email address, if available.</Abstract>
+			<DeclaredIn>DBAccountInfo.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSString *email</Declaration>
+			
+			
+			<Anchor>//api/name/email</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>
